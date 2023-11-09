@@ -7,6 +7,7 @@
 public class FizzBuzz {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
+            //Use an empty string so I only have to do one comparison to add a word
             String str = " ";
             if (i % 3 == 0) {
                 str += "Fizz";
